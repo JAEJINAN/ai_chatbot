@@ -1,0 +1,1080 @@
+.mediaViewInfo {
+    --web-view-name: 5 채팅 내용 확인;
+    --web-view-id: n____;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: n____;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#n____ {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    background-color: rgba(247, 247, 252, 1);
+    overflow: hidden;
+    --web-view-name: 5 채팅 내용 확인;
+    --web-view-id: n____;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+#Chat_Area {
+    position: absolute;
+    width: 375px;
+    height: 631px;
+    left: 0px;
+    top: 78px;
+    overflow: visible;
+}
+
+#Personal_Chat_Bubble {
+    position: absolute;
+    width: 266px;
+    height: 218px;
+    left: 16px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Personal_Chat_Bubble_n {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Personal_Chat_Bubble_n {
+    position: absolute;
+    overflow: visible;
+    width: 266px;
+    height: 218px;
+    left: 0px;
+    top: 0px;
+}
+
+#Image_Placeholder {
+    position: absolute;
+    width: 246px;
+    height: 150px;
+    left: 10px;
+    top: 10px;
+    overflow: visible;
+}
+
+#But_dont_worry_cause_we_are_al {
+    left: 10px;
+    top: 164px;
+    position: absolute;
+    overflow: visible;
+    width: 247px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(15, 24, 40, 1);
+}
+
+#n_646 {
+    left: 10px;
+    top: 192px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(173, 181, 189, 1);
+}
+
+#Personal_Chat_Bubble_r {
+    position: absolute;
+    width: 337px;
+    height: 128px;
+    left: 16px;
+    top: 230px;
+    overflow: visible;
+}
+
+#Personal_Chat_Bubble_s {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Personal_Chat_Bubble_s {
+    position: absolute;
+    overflow: visible;
+    width: 337px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+}
+
+#Replied {
+    position: absolute;
+    width: 317px;
+    height: 60px;
+    left: 10px;
+    top: 10px;
+    overflow: visible;
+}
+
+#Replied_u {
+    fill: rgba(237, 237, 237, 1);
+}
+
+.Replied_u {
+    position: absolute;
+    overflow: visible;
+    width: 317px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+
+#Rectangle_2593 {
+    fill: rgba(0, 45, 227, 1);
+}
+
+.Rectangle_2593 {
+    position: absolute;
+    overflow: visible;
+    width: 4px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+
+#Frame_3266 {
+    position: absolute;
+    width: 110px;
+    height: 44px;
+    left: 12px;
+    top: 8px;
+    overflow: visible;
+}
+
+#You {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 19px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgba(0, 45, 227, 1);
+}
+
+#But_dont_worry_cause_we_are_al_y {
+    left: 0px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(27, 43, 72, 1);
+}
+
+#But_dont_worry_cause_we_are_al_z {
+    left: 10px;
+    top: 74px;
+    position: absolute;
+    overflow: visible;
+    width: 287px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(15, 24, 40, 1);
+}
+
+#n_646_ {
+    left: 10px;
+    top: 102px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(173, 181, 189, 1);
+}
+
+#Personal_Chat_Bubble_ {
+    position: absolute;
+    width: 130px;
+    height: 64px;
+    left: 229px;
+    top: 370px;
+    overflow: visible;
+}
+
+#Personal_Chat_Bubble_ba {
+    fill: rgba(0, 45, 227, 1);
+}
+
+.Personal_Chat_Bubble_ba {
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+
+#But_dont_worry_cause_we_are_al_ {
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#n_650__Read {
+    left: 64px;
+    top: 38px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Personal_Chat_Bubble_bb {
+    position: absolute;
+    width: 159px;
+    height: 77px;
+    left: 200px;
+    top: 478px;
+    overflow: visible;
+}
+
+#Personal_Chat_Bubble_bc {
+    fill: rgba(0, 45, 227, 1);
+}
+
+.Personal_Chat_Bubble_bc {
+    position: absolute;
+    overflow: visible;
+    width: 159px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+}
+
+#Document {
+    position: absolute;
+    width: 139px;
+    height: 37px;
+    left: 10px;
+    top: 10px;
+    overflow: visible;
+}
+
+#Document_ {
+    fill: rgba(55, 95, 255, 1);
+}
+
+.Document_ {
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+}
+
+#Frame_3313 {
+    position: absolute;
+    width: 35.667px;
+    height: 12px;
+    left: 13.333px;
+    top: 12.5px;
+    overflow: visible;
+}
+
+#Icon {
+    position: absolute;
+    width: 7.333px;
+    height: 9.333px;
+    left: 0px;
+    top: 1.333px;
+    overflow: visible;
+}
+
+#Vector {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Vector {
+    overflow: visible;
+    position: absolute;
+    width: 7.333px;
+    height: 9.333px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#n_20 {
+    left: 14.667px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 22px;
+    height: 12px;
+    line-height: 16px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#sound {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 65px;
+    top: 8px;
+    overflow: visible;
+}
+
+#Line_17 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_17 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 5px;
+    left: 0px;
+    top: 8px;
+}
+
+#Line_16 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_16 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 15px;
+    left: 4px;
+    top: 3px;
+}
+
+#Line_15 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_15 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 19px;
+    left: 8px;
+    top: 1px;
+}
+
+#Line_14 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_14 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 15px;
+    left: 12px;
+    top: 3px;
+}
+
+#Line_13 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_13 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 21px;
+    left: 16px;
+    top: 0px;
+}
+
+#Line_12 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_12 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 13px;
+    left: 20px;
+    top: 4px;
+}
+
+#Line_11 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_11 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 17px;
+    left: 24px;
+    top: 2px;
+}
+
+#Line_10 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_10 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 9px;
+    left: 28px;
+    top: 6px;
+}
+
+#Line_09 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_09 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 21px;
+    left: 32px;
+    top: 0px;
+}
+
+#Line_08 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_08 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 5px;
+    left: 36px;
+    top: 8px;
+}
+
+#Line_07 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_07 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 15px;
+    left: 40px;
+    top: 3px;
+}
+
+#Line_06 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_06 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 19px;
+    left: 44px;
+    top: 1px;
+}
+
+#Line_05 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_05 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 15px;
+    left: 48px;
+    top: 3px;
+}
+
+#Line_04 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_04 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 21px;
+    left: 52px;
+    top: 0px;
+}
+
+#Line_03 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_03 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 13px;
+    left: 56px;
+    top: 4px;
+}
+
+#Line_02 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_02 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 21px;
+    left: 60px;
+    top: 0px;
+}
+
+#Line_01 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Line_01 {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 13px;
+    left: 64px;
+    top: 4px;
+}
+
+#n_913__Read {
+    left: 93px;
+    top: 51px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Personal_Chat_Bubble_bw {
+    position: absolute;
+    width: 240px;
+    height: 64px;
+    left: 16px;
+    top: 567px;
+    overflow: visible;
+}
+
+#Personal_Chat_Bubble_bx {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Personal_Chat_Bubble_bx {
+    position: absolute;
+    overflow: visible;
+    width: 240px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+
+#But_dont_worry_cause_we_are_al_by {
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 221px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(15, 24, 40, 1);
+}
+
+#n_945 {
+    left: 10px;
+    top: 38px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(173, 181, 189, 1);
+}
+
+#Divider {
+    position: absolute;
+    width: 343px;
+    height: 14px;
+    left: 16px;
+    top: 449px;
+    overflow: visible;
+}
+
+#divider {
+    position: absolute;
+    width: 102.5px;
+    height: 1px;
+    left: 0px;
+    top: 7px;
+    overflow: visible;
+}
+
+#Vector_1 {
+    fill: transparent;
+    stroke: rgba(237, 237, 237, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Vector_1 {
+    overflow: visible;
+    position: absolute;
+    width: 102.5px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#text {
+    left: 118.5px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 107px;
+    height: 14px;
+    line-height: 20px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(173, 181, 189, 1);
+}
+
+#divider_b {
+    position: absolute;
+    width: 102.5px;
+    height: 1px;
+    left: 240.5px;
+    top: 7px;
+    overflow: visible;
+}
+
+#Vector_1_b {
+    fill: transparent;
+    stroke: rgba(237, 237, 237, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Vector_1_b {
+    overflow: visible;
+    position: absolute;
+    width: 102.5px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Rectangle_2595 {
+    opacity: 0.15;
+    fill: rgba(0, 45, 227, 1);
+}
+
+.Rectangle_2595 {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 76px;
+    left: 0px;
+    top: 364px;
+}
+
+#Top_Bar {
+    position: absolute;
+    width: 375px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Top_Bar_b {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(237, 237, 237, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Top_Bar_b {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+
+#Status_Bar {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 22px;
+    top: 13px;
+    overflow: visible;
+}
+
+#Frame {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#n_41 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    height: 23px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(15, 24, 40, 1);
+}
+
+#Frame_cc {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: -8034px;
+    top: -5963px;
+    overflow: visible;
+}
+
+#Wrapper {
+    position: absolute;
+    width: 334.712px;
+    height: 20px;
+    left: 24.288px;
+    top: 52px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: 4____.html;
+    cursor: pointer;
+}
+
+#Icon_ce {
+    position: absolute;
+    width: 7.424px;
+    height: 12.02px;
+    left: 0px;
+    top: 3.99px;
+    overflow: visible;
+}
+
+#Vector_cf {
+    fill: rgba(15, 24, 40, 1);
+}
+
+.Vector_cf {
+    overflow: visible;
+    position: absolute;
+    width: 7.424px;
+    height: 12.02px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Text_cg {
+    left: 23.712px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 312px;
+    height: 20px;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(15, 24, 40, 1);
+}
+
+#Input_Message_Field {
+    position: absolute;
+    width: 375px;
+    height: 83.464px;
+    left: 0px;
+    top: 729px;
+    overflow: visible;
+}
+
+#Input_Message_Field_ci {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(237, 237, 237, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Input_Message_Field_ci {
+    position: absolute;
+    overflow: visible;
+    width: 377px;
+    height: 85.464px;
+    left: 0px;
+    top: 0px;
+}
+
+#Frame_3268 {
+    position: absolute;
+    width: 375px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Frame_3268_ck {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Frame_3268_ck {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+}
+
+#Icon_cl {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: 21px;
+    overflow: visible;
+}
+
+#Vector_cm {
+    fill: rgba(173, 181, 189, 1);
+}
+
+.Vector_cm {
+    overflow: visible;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Input {
+    position: absolute;
+    width: 279px;
+    height: 36px;
+    left: 48px;
+    top: 10px;
+    overflow: visible;
+}
+
+#Input_co {
+    fill: rgba(247, 247, 252, 1);
+}
+
+.Input_co {
+    position: absolute;
+    overflow: visible;
+    width: 279px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+}
+
+#send {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 339px;
+    top: 16px;
+    overflow: visible;
+}
+
+#Vector_cq {
+    fill: rgba(0, 45, 227, 1);
+}
+
+.Vector_cq {
+    overflow: visible;
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    left: 2px;
+    top: 3px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Vector_cr {
+    fill: transparent;
+}
+
+.Vector_cr {
+    overflow: visible;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Home_Indicator {
+    position: absolute;
+    width: 131px;
+    height: 5px;
+    left: 122px;
+    top: 70px;
+    overflow: visible;
+}
+
+#n_Corners {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.n_Corners {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    width: 375px;
+    height: 17.947px;
+    left: -122px;
+    top: -4.947px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Home_Indicator_cu {
+    opacity: 0.9;
+    fill: rgba(15, 24, 40, 1);
+}
+
+.Home_Indicator_cu {
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    height: 5px;
+    left: 0px;
+    top: 0px;
+}

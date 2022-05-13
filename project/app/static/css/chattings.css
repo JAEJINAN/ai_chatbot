@@ -1,5 +1,5 @@
 .mediaViewInfo {
-    --web-view-name: 1 로딩페이지;
+    --web-view-name: 2 채팅;
     --web-view-id: n__;
     --web-scale-on-resize: true;
     --web-enable-deep-linking: true;
@@ -20,78 +20,59 @@
     position: absolute;
     width: 375px;
     height: 812px;
-    background-color: rgba(247, 247, 252, 1);
+    background-color: rgba(255, 255, 255, 1);
     overflow: hidden;
-    --web-view-name: 1 로딩페이지;
+    --web-view-name: 2 채팅;
     --web-view-id: n__;
     --web-scale-on-resize: true;
     --web-enable-deep-linking: true;
 }
 
-#Chat_Area {
-    position: absolute;
-    width: 264px;
-    height: 532px;
-    left: 56px;
-    top: 168px;
-    overflow: visible;
-}
-
-#n____KOR-ENG_CHATBOT_FOR_ELEME {
-    left: 1px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 263px;
-    height: 228px;
-    text-align: center;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    color: rgba(0, 0, 0, 1);
-}
-
 #free-icon-robot-6134346_1 {
     position: absolute;
-    width: 213px;
-    height: 191px;
-    left: 25px;
-    top: 229px;
+    width: 234px;
+    height: 245px;
+    left: 71px;
+    top: 151px;
     overflow: visible;
-    --web-animation: fadein undefineds undefined;
-    --web-action-type: page;
-    --web-action-target: 2____.html;
-    cursor: pointer;
 }
 
-#n_____Hello_Nice_to_meet_you__ {
-    left: 0px;
-    top: 421px;
+#n____Press_the_button_while_yo {
+    left: 52px;
+    top: 418px;
     position: absolute;
     overflow: visible;
-    width: 265px;
-    height: 111px;
+    width: 269px;
+    height: 89px;
     line-height: 24px;
-    margin-top: -5px;
+    margin-top: -3px;
     text-align: center;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 1);
 }
 
-#Input_Message_Field {
+#free-icon-voice-7240059_1 {
     position: absolute;
-    width: 375px;
-    height: 22.464px;
-    left: 0px;
-    top: 790px;
+    width: 148px;
+    height: 147px;
+    left: 112px;
+    top: 529px;
     overflow: visible;
 }
 
-#Input_Message_Field_q {
+#Top_Bar {
+    position: absolute;
+    width: 375px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Top_Bar_p {
     fill: rgba(255, 255, 255, 1);
     stroke: rgba(237, 237, 237, 1);
     stroke-width: 1px;
@@ -101,51 +82,108 @@
     shape-rendering: auto;
 }
 
-.Input_Message_Field_q {
+.Top_Bar_p {
     position: absolute;
     overflow: visible;
-    width: 377px;
-    height: 24.464px;
+    width: 375px;
+    height: 90px;
     left: 0px;
     top: 0px;
 }
 
-#Home_Indicator {
+#Status_Bar {
     position: absolute;
-    width: 131px;
-    height: 5px;
-    left: 122px;
-    top: 9px;
+    width: 30px;
+    height: 23px;
+    left: 22px;
+    top: 13px;
     overflow: visible;
 }
 
-#n_Corners_x {
-    fill: rgba(0, 0, 0, 1);
-}
-
-.n_Corners_x {
-    display: none;
-    overflow: visible;
+#Frame {
     position: absolute;
-    width: 375px;
-    height: 17.947px;
-    left: -122px;
-    top: -4.947px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 30px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
 }
 
-#Home_Indicator_y {
-    opacity: 0.9;
+#n_41 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    height: 23px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(15, 24, 40, 1);
+}
+
+#Frame_t {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: -6076px;
+    top: -5963px;
+    overflow: visible;
+}
+
+#Wrapper {
+    position: absolute;
+    width: 334.712px;
+    height: 20px;
+    left: 24.288px;
+    top: 52px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: 1_______.html;
+    cursor: pointer;
+}
+
+#Icon {
+    position: absolute;
+    width: 7.424px;
+    height: 12.02px;
+    left: 0px;
+    top: 3.99px;
+    overflow: visible;
+}
+
+#Vector {
     fill: rgba(15, 24, 40, 1);
 }
 
-.Home_Indicator_y {
-    position: absolute;
+.Vector {
     overflow: visible;
-    width: 131px;
-    height: 5px;
+    position: absolute;
+    width: 7.424px;
+    height: 12.02px;
     left: 0px;
     top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Chat {
+    left: 23.712px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 312px;
+    height: 20px;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(15, 24, 40, 1);
 }
 
 #Bottom_Bar {
@@ -157,11 +195,11 @@
     overflow: visible;
 }
 
-#Bottom_Bar_v {
+#Bottom_Bar_z {
     fill: rgba(255, 255, 255, 1);
 }
 
-.Bottom_Bar_v {
+.Bottom_Bar_z {
     filter: drop-shadow(0px -1px 48px rgba(0, 0, 0, 0.039));
     position: absolute;
     overflow: visible;
@@ -171,7 +209,7 @@
     top: 0px;
 }
 
-#Home_Indicator_w {
+#Home_Indicator {
     position: absolute;
     width: 131px;
     height: 5px;
@@ -180,11 +218,11 @@
     overflow: visible;
 }
 
-#n_Corners_x {
+#n_Corners {
     fill: rgba(0, 0, 0, 1);
 }
 
-.n_Corners_x {
+.n_Corners {
     display: none;
     overflow: visible;
     position: absolute;
@@ -195,12 +233,12 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-#Home_Indicator_y {
+#Home_Indicator_ {
     opacity: 0.9;
     fill: rgba(15, 24, 40, 1);
 }
 
-.Home_Indicator_y {
+.Home_Indicator_ {
     position: absolute;
     overflow: visible;
     width: 131px;
@@ -209,7 +247,7 @@
     top: 0px;
 }
 
-#Wrapper {
+#Wrapper_ {
     position: absolute;
     width: 268.5px;
     height: 44px;
@@ -225,10 +263,6 @@
     left: 0px;
     top: 0px;
     overflow: visible;
-    --web-animation: fadein undefineds undefined;
-    --web-action-type: page;
-    --web-action-target: 2____.html;
-    cursor: pointer;
 }
 
 #Chats {
@@ -243,23 +277,23 @@
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    color: rgba(173, 181, 189, 1);
+    color: rgba(0, 45, 227, 1);
 }
 
 #chat {
     position: absolute;
     width: 24px;
-    height: 30px;
+    height: 24px;
     left: 4px;
     top: 0px;
     overflow: visible;
 }
 
-#Vector {
-    fill: rgba(173, 181, 189, 1);
+#Vector_ {
+    fill: rgba(0, 45, 227, 1);
 }
 
-.Vector {
+.Vector_ {
     overflow: visible;
     position: absolute;
     width: 20px;
@@ -269,11 +303,11 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-#Vector_ {
+#Vector_ba {
     fill: transparent;
 }
 
-.Vector_ {
+.Vector_ba {
     overflow: visible;
     position: absolute;
     width: 24px;
@@ -320,11 +354,11 @@
     overflow: visible;
 }
 
-#Vector_ba {
+#Vector_bc {
     fill: rgba(173, 181, 189, 1);
 }
 
-.Vector_ba {
+.Vector_bc {
     overflow: visible;
     position: absolute;
     width: 17.49px;
@@ -334,11 +368,11 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-#Vector_bb {
+#Vector_bd {
     fill: transparent;
 }
 
-.Vector_bb {
+.Vector_bd {
     overflow: visible;
     position: absolute;
     width: 24px;
@@ -348,7 +382,7 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-#Menu_ba {
+#Menu_be {
     position: absolute;
     width: 25px;
     height: 44px;
@@ -370,11 +404,11 @@
     overflow: visible;
 }
 
-#Vector_bc {
+#Vector_bg {
     fill: rgba(173, 181, 189, 1);
 }
 
-.Vector_bc {
+.Vector_bg {
     overflow: visible;
     position: absolute;
     width: 18px;
@@ -384,11 +418,11 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-#Vector_bd {
+#Vector_bh {
     fill: transparent;
 }
 
-.Vector_bd {
+.Vector_bh {
     overflow: visible;
     position: absolute;
     width: 24px;
@@ -411,65 +445,4 @@
     font-weight: bold;
     font-size: 12px;
     color: rgba(173, 181, 189, 1);
-}
-
-#Top_Bar {
-    position: absolute;
-    width: 375px;
-    height: 90px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-}
-
-#Top_Bar_bg {
-    fill: rgba(255, 255, 255, 1);
-    stroke: rgba(237, 237, 237, 1);
-    stroke-width: 1px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-}
-
-.Top_Bar_bg {
-    position: absolute;
-    overflow: visible;
-    width: 375px;
-    height: 90px;
-    left: 0px;
-    top: 0px;
-}
-
-#Status_Bar {
-    position: absolute;
-    width: 30px;
-    height: 23px;
-    left: 166.5px;
-    top: 13px;
-    overflow: visible;
-}
-
-#Frame {
-    position: absolute;
-    width: 30px;
-    height: 23px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-}
-
-#n_41 {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 40px;
-    height: 23px;
-    text-align: left;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    color: rgba(15, 24, 40, 1);
 }
