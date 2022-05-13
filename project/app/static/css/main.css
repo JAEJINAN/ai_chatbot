@@ -1,0 +1,13 @@
+.Top-Bar {
+  width: 375px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0 0 639px;
+  padding: 13px 16px;
+  border: solid 1px #ededed;
+  background-color: #fff;
+}
