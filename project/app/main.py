@@ -18,6 +18,7 @@ templates = Jinja2Templates(directory=BASE_DIR)
 current_time = f'{datetime.now().hour: >2} : {datetime.now().minute: >2}'
 print(current_time)
 
+
 # 메인(로딩) 화면
 @app.get("/", response_class=HTMLResponse)
 async def root(request: Request):
@@ -32,6 +33,13 @@ async def root(request: Request):
 async def chattings(request: Request):
     return templates.TemplateResponse("templates/chattings.html", {"request": request,
                                                                    "time": current_time, })
+    
+@app.get('/chattings/mic', response_class=HTMLResponse)
+async def on_mic(request: Request):
+    
+    return templates.TemplateResponse("templates/chattings.html", {"request": request,
+                                                                   "time": current_time, })
+    
 
 
 # 비디오 화면
