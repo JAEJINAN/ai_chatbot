@@ -1,0 +1,28 @@
+import json
+from pathlib import Path
+from typing import Optional
+
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+
+def get_secret(
+    key: str,
+    default_value: Optional[str] = None,
+    json_path: str = str(BASE_DIR / "secrets.json"),
+):
+    with open(json_path) as f:
+        secrets = json.loads(f.read())
+    try:
+        return secrets[key]
+    except KeyError:
+        if default_value:
+            return default_value
+        raise EnvironmentError(f"Set the {key} environment variable.")
+
+
+DJANGO_SECRET_KEY = get_secret("SECRET_KEY")
+MONGO_NAME = get_secret("MONGO_NAME")
+MONGO_PASS = get_secret("MONGO_PASS")
+MONGO_CLUSTER = get_secret("MONGO_CLUSTER")
+MONGO_DB_NAME = get_secret("MONGO_DB_NAME")
