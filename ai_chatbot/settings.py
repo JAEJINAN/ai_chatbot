@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 from pathlib import Path
-from ai_chatbot.config import DJANGO_SECRET_KEY, MONGO_NAME, MONGO_PASS, MONGO_CLUSTER, MONGO_DB_NAME
+from ai_chatbot.config import DJANGO_SECRET_KEY, MYSQL_ID, MYSQL_PASSWORD
+from ai_chatbot.config import MONGO_NAME, MONGO_PASS, MONGO_CLUSTER, MONGO_DB_NAME
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'users',
     'corsheaders',
+    'chattings',
 ]
 
 MIDDLEWARE = [
@@ -78,30 +81,34 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ai_chatbot.wsgi.application'
 
 
-Database
-https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+# Database
+# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'user',
+        'USER': f'{MYSQL_ID}',
+        'PASSWORD': f'{MYSQL_PASSWORD}',
+        'HOST': 'localhost',
+        'PORT': '3306'
+    },
+    
+    'chat_list': {
+        'ENGINE': 'djongo',
+        'NAME': 'ai_chatbot',
+        'ENFORCE_SCHEMA': False,
+        'CLIENT': {
+            'host': f'mongodb+srv://{MONGO_NAME}:{MONGO_PASS}@{MONGO_CLUSTER}/{MONGO_DB_NAME}'
+        }  
     }
 }
 
-# DB_NAME = 'mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/myFirstDatabase'
-
-# DATABASES = {
-#         'default': {
-#             'ENGINE': 'djongo',
-#             'NAME': 'ai_chatbot',
-#             'ENFORCE_SCHEMA': False,
-#             'CLIENT': {
-#                 'host': f'mongodb+srv://{MONGO_NAME}:{MONGO_PASS}@{MONGO_CLUSTER}/{MONGO_DB_NAME}'
-#             }  
-#         }
-# }
-
-
+# 'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#         'U'
+#     },
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
